@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -12,76 +13,61 @@
         android:orientation="vertical"
         tools:context=".MenuPrincipalActivity">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
 
-        <TextView
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/cao"
+                android:text="cão"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/cat"
+                android:text="gato"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:text="Menu Principal"
-            android:textSize="50dp"
-            />
+            android:drawableBottom="@drawable/horse"
+            android:text="Cavalo" />
 
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/dog"
-        "/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/cow"
+            android:text="vaca" />
 
-        <EditText
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Dog"
-            android:textSize="50dp"/>
+            android:orientation="horizontal">
 
-        <ImageView
+        <Button
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="-150dp"
-            android:src="@drawable/cat"
-        "/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Cat"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/shark"
+            android:text="tubarão" />
 
-            android:textSize="50dp"/>
-
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/horse"
-        "/>
-
-        <ImageView
+        <Button
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="-150dp"
-            android:src="@drawable/vaca"
-        "/>
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/fish"
+            android:text="peixe" />
 
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/shark"
-        "/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="-150dp"
-            android:src="@drawable/fish"
-        "/>
-
-
-    </LinearLayout>
+        </LinearLayout>
 
 </ScrollView>

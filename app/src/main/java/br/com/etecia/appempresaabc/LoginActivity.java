@@ -17,6 +17,8 @@ public class LoginActivity extends AppCompatActivity {
 
         txtUsuario = (EditText) findViewById(R.id.edtUsuario);
         txtSenha = (EditText) findViewById(R.id.edtSenha);
+
+
     }
 
     public void sairApp(View view) {
